@@ -1,0 +1,24 @@
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace Profe
+{
+
+    public class InventoryHandler : MonoBehaviour
+    {
+
+        public List<SOItem> inventory = new List<SOItem>();
+        [SerializeField] private Image newItemImage;
+
+        public void AddItem(SOItem item)
+        {
+            inventory.Add(item);
+            Debug.Log("Descripcion: " + item.description);
+            Debug.Log("Se ha añadido " + item.name + " a tu inventario");
+            newItemImage.sprite = item.sprite;
+        }
+
+    }
+
+}
