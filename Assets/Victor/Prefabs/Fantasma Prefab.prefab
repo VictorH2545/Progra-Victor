@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8418856838767306575}
   - component: {fileID: 4022635091167202897}
   - component: {fileID: 5423010979724101119}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fantasma (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 6033855563253714670}
   - component: {fileID: 2879393459373795203}
   - component: {fileID: 3094676692404671943}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fantasma (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 2901329805144701525}
   - component: {fileID: 6000586948677085571}
   - component: {fileID: 6666451117192419368}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fantasma (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -324,7 +324,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4739875838673914737}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fantasma Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -370,7 +370,7 @@ GameObject:
   - component: {fileID: 172128681771234024}
   - component: {fileID: 6674309481497953838}
   - component: {fileID: 9003343611827167123}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fantasma (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -475,7 +475,7 @@ GameObject:
   - component: {fileID: 4549128041821841659}
   - component: {fileID: 4177821503384744540}
   - component: {fileID: 7051408619523690352}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fantasma (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -580,7 +580,7 @@ GameObject:
   - component: {fileID: 9104358852133312803}
   - component: {fileID: 5469773234134431456}
   - component: {fileID: 7967089347706356539}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fantasma (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -685,7 +685,7 @@ GameObject:
   - component: {fileID: 2967312023672270408}
   - component: {fileID: 5123370010188306480}
   - component: {fileID: 1783445579645480951}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fantasma (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -790,7 +790,7 @@ GameObject:
   - component: {fileID: 5921859206056196662}
   - component: {fileID: 5032514509911873267}
   - component: {fileID: 5374193733634078931}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fantasma (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -895,7 +895,7 @@ GameObject:
   - component: {fileID: 7033475912523292138}
   - component: {fileID: 7317550184848971348}
   - component: {fileID: 6576300933398356243}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fantasma (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1000,7 +1000,7 @@ GameObject:
   - component: {fileID: 8008211358799246299}
   - component: {fileID: 8962014561074596586}
   - component: {fileID: 3414870982333615179}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fantasma (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1105,7 +1105,7 @@ GameObject:
   - component: {fileID: 1962420612152963797}
   - component: {fileID: 779174589438765970}
   - component: {fileID: 1058030861258616171}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fantasma (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1210,7 +1210,7 @@ GameObject:
   - component: {fileID: 5203941694577134699}
   - component: {fileID: 7892290008702680414}
   - component: {fileID: 5640725131105684398}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fantasma
   m_TagString: Untagged
   m_Icon: {fileID: 0}

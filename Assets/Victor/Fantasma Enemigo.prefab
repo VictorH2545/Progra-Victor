@@ -1170,7 +1170,7 @@ GameObject:
   - component: {fileID: 1023729418812594010}
   - component: {fileID: 6262355742225942068}
   - component: {fileID: 7399841362741331144}
-  - component: {fileID: 8707165293541874043}
+  - component: {fileID: 755929388160830465}
   m_Layer: 6
   m_Name: Fantasma Enemigo
   m_TagString: Untagged
@@ -1325,7 +1325,7 @@ MonoBehaviour:
   particulas: {fileID: 3732146900229195090, guid: 214ff1b761c2a9543b97bbe31593678c, type: 3}
   vidaDeJugador: {fileID: 0}
   danio: 10
---- !u!114 &8707165293541874043
+--- !u!114 &755929388160830465
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1337,6 +1337,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a05983fa172b4d41b8886b6792e3403, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actualHealth: 10
+  actualHealth: 0
   maxHealth: 10
   blood: {fileID: 0}
