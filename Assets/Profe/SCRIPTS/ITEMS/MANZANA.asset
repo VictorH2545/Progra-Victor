@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: MANZANA
   m_EditorClassIdentifier: 
   itemPrefab: {fileID: 0}
-  sprite: {fileID: 0}
-  names: manzana
-  description: es una manzana
+  sprite: {fileID: 21300000, guid: f0c15c3bc75be1044b0e2c19b8ed543a, type: 3}
+  names: Manzana
+  description: Es una manzana

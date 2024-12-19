@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: NARANJA
   m_EditorClassIdentifier: 
   itemPrefab: {fileID: 0}
-  sprite: {fileID: 0}
-  names: naranja
-  description: es una naranja
+  sprite: {fileID: 21300000, guid: 85d264c7630528743b24b14dda3d1690, type: 3}
+  names: Naranja
+  description: Es una naranja

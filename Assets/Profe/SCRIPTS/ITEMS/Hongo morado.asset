@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63ad0ffcce906844f8eccb6fad08b5af, type: 3}
-  m_Name: HONGO 1
+  m_Name: Hongo morado
   m_EditorClassIdentifier: 
   itemPrefab: {fileID: 0}
-  sprite: {fileID: 0}
-  names: HONGO 1
-  description: "Hongo alucin\xF3geno que puede desaparecer cierto tipo de paredes"
+  sprite: {fileID: 21300000, guid: a7bc9d40601fe7f418c63b71212a47fa, type: 3}
+  names: Hongo morado
+  description: Es un hongo morado

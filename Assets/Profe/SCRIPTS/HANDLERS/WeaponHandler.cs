@@ -31,11 +31,11 @@ namespace Victor.Weapons
         {
             Aim();
 
-            if (Input.GetKeyDown(KeyCode.LeftArrow))
+            if (Input.GetKeyDown(KeyCode.Q))
             {
                 currentWeapon = weapons[1];
             }
-            else if (Input.GetKeyDown(KeyCode.RightArrow))
+            else if (Input.GetKeyDown(KeyCode.R))
             {
                 currentWeapon = weapons[0];
             }
@@ -46,6 +46,16 @@ namespace Victor.Weapons
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
                 currentWeapon.Shoot();
+                AudioManager.AudioInstance.Play("Pistolita");
+
+                if (currentWeapon == weapons[0])
+                {
+                    AudioManager.AudioInstance.Play("Pistolita");
+                }
+                else if (currentWeapon == weapons[1])
+                {
+                    AudioManager.AudioInstance.Play("Pistolon");
+                }
             }
         }
 

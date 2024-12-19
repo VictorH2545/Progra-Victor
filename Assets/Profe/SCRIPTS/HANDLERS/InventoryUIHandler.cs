@@ -82,9 +82,30 @@ namespace Profe
                     }
                 }
 
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+
                 HideAllItems();
                 ShowItems(actualPage);
             }
+        }
+
+        public void ForwardPage()
+        {
+            HideAllItems();
+
+            actualPage += 1;
+
+            ShowItems(actualPage);
+        }
+
+        public void BackPage()
+        {
+            HideAllItems();
+
+            actualPage -= 1;
+
+            ShowItems(actualPage);
         }
 
         private int GetTotalItemsDeployed()

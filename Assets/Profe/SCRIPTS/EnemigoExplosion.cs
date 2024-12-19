@@ -15,7 +15,9 @@ public class EnemigoExplosion : MonoBehaviour
         {
             Instantiate(particulas, transform.position, transform.rotation);
 
+            VidaJugador vidaDeJugador = GameObject.Find("vida").GetComponent<VidaJugador>();
             vidaDeJugador.RecibirDaño(danio);
+            AudioManager.AudioInstance.Play("Explosion");
 
             Destroy(this.gameObject);
         }

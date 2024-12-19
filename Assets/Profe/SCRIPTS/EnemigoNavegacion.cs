@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,8 +6,9 @@ using UnityEngine.AI;
 
 public class EnemigoNavegacion : MonoBehaviour
 {
-    public GameObject jugador;
     private NavMeshAgent fantasmaAgent;
+    private GameObject jugador;
+    public float fantasmaCorriendo; 
 
     void Start()
     {
@@ -16,6 +18,7 @@ public class EnemigoNavegacion : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        GameObject jugador = GameObject.Find("Jugador");
         fantasmaAgent.destination = jugador.transform.position;
     }
 }

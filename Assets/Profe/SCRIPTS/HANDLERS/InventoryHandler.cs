@@ -14,9 +14,6 @@ namespace Profe
         public void AddItem(SOItem item)
         {
             inventory.Add(item);
-            Debug.Log("Descripcion: " + item.description);
-            Debug.Log("Se ha añadido " + item.name + " a tu inventario");
-            newItemImage.sprite = item.sprite;
         }
 
     }

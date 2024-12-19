@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63ad0ffcce906844f8eccb6fad08b5af, type: 3}
-  m_Name: hongo 2
+  m_Name: Llave vieja
   m_EditorClassIdentifier: 
   itemPrefab: {fileID: 0}
-  sprite: {fileID: 0}
-  names: HONGO 2
-  description: HONGO QUE ABRE PUERTAS ROJAS
+  sprite: {fileID: 21300000, guid: e2c37f988a2092944b736682b3c681f6, type: 3}
+  names: Llave vieja
+  description: Es una llave vieja
